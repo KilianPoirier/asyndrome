@@ -10,8 +10,8 @@ import subprocess as sub
 import sys
 from typing import IO
 import stimbposd
-import relay_bp
-import relay_bp.stim
+# import relay_bp
+# import relay_bp.stim
 
 
 class StimMeasurement:
@@ -124,7 +124,7 @@ class DecoderAgent:
             "bp_osd": stimbposd.SinterDecoder_BPOSD(
                 max_bp_iters=self._nkd[0]  # , osd_order=self._nkd[2]
             ),
-            **relay_bp.stim.sinter_decoders(**RELAY_PARAMS),
+            # **relay_bp.stim.sinter_decoders(**RELAY_PARAMS),
         }
 
         # some stim stuffs here

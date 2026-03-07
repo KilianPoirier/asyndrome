@@ -52,10 +52,10 @@ def schedule(qecc: str, decoder: str | None, method: str, output: str | None):
     start_time = time()
 
     scheduler: asyndrome.Scheduler = {
-        "baseline": asyndrome.BaselineScheduler(logpath=f"{qecc}.pulp.log"),
+        # "baseline": asyndrome.BaselineScheduler(logpath=f"{qecc}.pulp.log"),
         "alpha": asyndrome.AlphaScheduler(iters_per_step=8000, nshots=10000),
-        "google": asyndrome.GoogleScheduler(code.d, code.n // code.d),
-        "trivial": asyndrome.TrivialScheduler(code.d, code.n // code.d)
+        # "google": asyndrome.GoogleScheduler(code.d, code.n // code.d),
+        # "trivial": asyndrome.TrivialScheduler(code.d, code.n // code.d)
     }[method]
 
     if decoder is None and method == "alpha":
