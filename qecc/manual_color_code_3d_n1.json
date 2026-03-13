@@ -1,0 +1,30 @@
+{
+    "n": 15,
+    "k": 1,
+    "d": 3,
+    "family": "3D Color Code",
+    "logical_xs": [
+        "XXXXXXXIIIIIIII"
+    ],
+    "logical_zs": [
+        "ZZZIIIIIIIIIIII"
+    ],
+    "x_stabilizers": [
+        "XXIIIXXXXIIIXXI",
+        "IIIXXXXIIIXXXXI",
+        "IXXXIIXIXXXIIXI",
+        "IIIIIIIXXXXXXXX"
+    ],
+    "z_stabilizers": [
+        "ZZIIIZZIIIIIIII",
+        "IZZZIIZIIIIIIII",
+        "IIIZZZZIIIIIIII",
+        "IIZZIIIIIZZIIII",
+        "IIIZZIIIIIZZIII",
+        "IIIIZZIIIIIZZII",
+        "IIIIIIIZIIIZZIZ",
+        "IIIIIIIZZIIIZZI",
+        "IIIIIIIIZZZIIZI",
+        "IIIIIIIIIIZZZZI"
+    ]
+}
